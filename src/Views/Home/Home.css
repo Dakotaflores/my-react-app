@@ -6,11 +6,26 @@
 }
 
 .box {
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 150px;
   background-color: red;
+  font-size: 50px;
+  display: flex;                                         
+  justify-content: center;  
+  align-items:flex-end;  /* estructurao maquetacion */
 }
 
+.box2 {
+  width: 100px;
+  height: 150px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
 .imageclass{
-  
+  width: auto;
+  height: auto;
 }
